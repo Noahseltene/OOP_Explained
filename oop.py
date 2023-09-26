@@ -35,6 +35,3 @@ Tee.speak()
 pesh.appearance()
 Tee.appearance()
  
-# Accessing instance attributes
-print("My name is {}".format(pesh.name))
-print("My name is {}".format(Tee.name))
