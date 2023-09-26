@@ -11,6 +11,9 @@ class Dog:
 
     def speak(self):  
         print("This dog {}".format(self.sound))
+
+    def appearance(self):  
+        print("My  dog is {}".format(self.color))
  
 
 # Object instantiation
@@ -25,15 +28,12 @@ print("Tee is also a {}".format(Tee.attr1))
 print("My name is {}".format(pesh.name))
 print("My name is {}".format(Tee.name))
 
-
-# Accessing instance attributes
-print("My color is {}".format(pesh.color))
-print("My color is {}".format(Tee.color))
-
-
 # Accessing class methods
 pesh.speak()
 Tee.speak()
+
+pesh.appearance()
+Tee.appearance()
  
 # Accessing instance attributes
 print("My name is {}".format(pesh.name))
